@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity4"
+    android:background="#6AE7D8">
+
+
+    <Button
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:background=""
+        android:text="<"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/button1"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="379dp"
+        android:layout_height="586dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tableid">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Date"
+                android:textSize="35dp"
+                android:id="@+id/txtdatee"/>
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_column="2"
+                android:gravity="center"
+                android:text="29-11-2024 8:00"
+                android:textSize="25dp"
+                android:id="@+id/txtdate"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+
+                android:text="Location"
+                android:textSize="33dp"
+                android:id="@+id/txtlocation"
+                />
+
+            <TextView
+                android:layout_column="2"
+                android:gravity="center"
+                android:text="Beirut"
+                android:textSize="30dp"
+                android:id="@+id/txtbeirut"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Booking type"
+                android:textSize="27dp"
+                android:id="@+id/txtbooking"/>
+
+            <TextView
+                android:layout_column="2"
+                android:gravity="center"
+                android:text="Normal"
+                android:textSize="25dp"
+                android:id="@+id/txtnormal"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Members"
+                android:textSize="33dp"
+                android:id="@+id/txtmembers"/>
+
+            <TextView
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="20dp"
+                android:id="@+id/txtnb1"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Payments"
+                android:textSize="33dp"
+                android:id="@+id/txtpayments"/>
+
+            <TextView
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:text="YES"
+                android:textSize="20dp"
+                android:id="@+id/txtyes"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Full name"
+                android:textSize="33dp"
+                android:id="@+id/txtfullname"/>
+
+            <TextView
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:text="Marc sarrouh"
+                android:textSize="20dp"
+                android:id="@+id/txtmarcsarrouh"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Email"
+                android:textSize="35dp"
+                android:id="@+id/txtemail"/>
+
+            <TextView
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:text="Marcsarrouh@gmail.com"
+                android:textSize="18dp"
+                android:id="@+id/txtemailmarc"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Mobile no."
+                android:textSize="33dp"
+                android:id="@+id/txtmobile"/>
+
+            <TextView
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:text="70-328147"
+                android:textSize="25dp"
+                android:id="@+id/txtnbmobile"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Reason"
+                android:textSize="35dp"
+                android:id="@+id/txtreason"/>
+
+            <TextView
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:text="passport"
+                android:textSize="25dp"
+                android:id="@+id/txtpassport"/>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttondownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableid"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="100dp"
+        android:text="Download pdf version" />
+
+
+
+
+
+
+</RelativeLayout>

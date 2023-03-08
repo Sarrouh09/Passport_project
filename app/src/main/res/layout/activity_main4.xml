@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#6AE7D8">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="725dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/image1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="31dp"
+        />
+
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="61dp"
+        android:text="Enter details below to book appointement  "
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="112dp"
+        android:id="@+id/txttitre"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="730dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="250dp"
+            android:text="First name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/txtfirstname"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_backgroud"
+            android:text=" first name"
+            android:textColor="#808080"
+            android:textSize="25dp"
+            android:id="@+id/editfirstname"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="250dp"
+            android:text="Last name"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:id="@+id/txtlastname"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_backgroud"
+            android:text="  last name"
+            android:textColor="#808080"
+            android:textSize="25dp"
+            android:id="@+id/editlastname"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="250dp"
+            android:text=" Mobile no."
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:id="@+id/txtmobile"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_backgroud"
+            android:text=" +961"
+            android:textColor="#808080"
+            android:textSize="25dp"
+            android:id="@+id/editmobile"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="250dp"
+            android:text=" Email"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:id="@+id/txtemail"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_backgroud"
+            android:textColor="#808080"
+            android:textSize="25dp"
+            android:id="@+id/editemail"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="100dp"
+            android:text=" Center where you apply"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:id="@+id/txtcenter"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_backgroud"
+            android:textColor="#808080"
+            android:textSize="25dp"
+            android:id="@+id/editcenter"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="150dp"
+            android:text=" Date of appointment"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:id="@+id/txtdate"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_backgroud"
+            android:textColor="#808080"
+            android:textSize="25dp"
+            android:id="@+id/edittxt"/>
+
+        <TableLayout
+            android:layout_width="249dp"
+            android:layout_height="98dp"
+            android:background="#808080"
+            android:layout_marginTop="10dp"
+            android:id="@+id/idtable">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:layout_width="79dp"
+                    android:layout_height="37dp"
+                    android:layout_column="1"
+                    android:layout_marginRight="5dp"
+                    android:text="8:00"
+                    android:id="@+id/button8"/>
+
+                <Button
+                    android:layout_width="79dp"
+                    android:layout_height="37dp"
+                    android:layout_column="2"
+                    android:layout_marginRight="5dp"
+                    android:text="9:00"
+                    android:id="@+id/button9"
+                    />
+                <Button
+                    android:layout_width="79dp"
+                    android:layout_height="37dp"
+                    android:layout_column="3"
+                    android:text="10:00"
+                    android:id="@+id/button10"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:layout_width="79dp"
+                    android:layout_height="37dp"
+                    android:layout_column="1"
+                    android:text="11:00"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/button11"/>
+                <Button
+                    android:layout_width="79dp"
+                    android:layout_height="37dp"
+                    android:layout_column="2"
+                    android:layout_marginRight="10dp"
+                    android:text="12:00"
+                    android:id="@+id/button12"/>
+                <Button
+                    android:layout_width="79dp"
+                    android:layout_height="37dp"
+                    android:layout_column="3"
+                    android:text="13:00"
+                    android:id="@+id/button13"/>
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="20dp"
+            android:text="Next"
+            android:id="@+id/buttonnext"/>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#6AE7D8">
+
+    <TextView
+        android:id="@+id/txtbackground"
+        android:layout_width="378dp"
+        android:layout_height="535dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerInParent="true"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+       >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="555dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A citizen has the right to apply for a passport
+if he does not have a passport that is valid for a year and a half"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="35dp"
+            android:paddingLeft="20dp"
+
+            />
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="459dp"
+            android:background="@color/black" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#808080"
+            android:id="@+id/btnregular"
+            android:layout_marginTop="300dp"
+            android:text="Book a regular Appointment"
+            android:textColor="@color/black"
+            android:layout_marginLeft="35dp"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#808080"
+            android:id="@+id/btnurgent"
+            android:layout_marginTop="380dp"
+            android:text="Book an urgent Appointment"
+            android:textColor="@color/black"
+            android:layout_marginLeft="35dp"
+
+
+
+
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#808080"
+            android:id="@+id/btncheck"
+            android:layout_marginTop="460dp"
+            android:text="Check the date"
+            android:textColor="@color/black"
+            android:layout_marginLeft="35dp"
+
+
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#808080"
+            android:id="@+id/btncancel"
+            android:layout_marginTop="540dp"
+            android:text="Check the date"
+            android:textColor="@color/black"
+            android:layout_marginLeft="35dp"
+
+
+            />
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

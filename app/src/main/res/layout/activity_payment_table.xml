@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment_table"
+    android:background="#6AE7D8">
+
+    <TextView
+        android:id="@+id/txtback"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtdoc"
+            android:textColor="@color/black"
+            android:text="The needed documents for the passport:"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtdoc"
+            android:id="@+id/txtdoc1"
+            android:textColor="@color/black"
+            android:text="1- Two photo passport "
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtdoc2"
+            android:textColor="@color/black"
+            android:layout_below="@+id/txtdoc1"
+            android:text="2- Identity photocopy"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtdoc3"
+            android:textColor="@color/black"
+            android:text="3- A paper from the government"
+            android:layout_below="@id/txtdoc2"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="15dp"/>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/txtdoc3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/table"
+        >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#808080">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Payment"
+                />
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:layout_heigh="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Child"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/child"
+                />
+            <TextView
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Parent"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/parent"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#808080"
+            android:layout_marginTop="5dp"
+            >
+            <TextView
+               android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Urgent \n(5 years)"
+                android:id="@+id/urgent5"
+                />
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="1 525 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p1525000"
+                />
+            <TextView
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="2 050 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p2050000"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#808080"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Regular -\n(5 years)"
+                android:id="@+id/regular5"
+                />
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="750 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p750000"
+                />
+            <TextView
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="2 000 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p1000000"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#808080"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Urgent \n(10 years)"
+                android:id="@+id/urgent10"
+                />
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="3 100 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p3100000"
+                />
+            <TextView
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="4 100 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p4100000"
+                />
+        </TableRow>
+        <TableRow
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#808080"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Regular \n(10 years)"
+                android:id="@+id/regular10"
+
+                />
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="1 500 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p1500000"
+                />
+            <TextView
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="2 000 000L.L."
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/p2000000"
+                />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/table"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="150dp"
+            android:text="Next"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
